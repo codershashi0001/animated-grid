@@ -57,7 +57,7 @@ overflow: hidden; */
     
 
 } 
-/* .header{
+.header{
     display:grid;
     grid-template-areas: 'a a u u b b'
                          'a a u u b b'
@@ -76,7 +76,7 @@ overflow: hidden; */
     position: relative;
     border: 2px solid white;
     
-} */
+}
 
 .upper{
     grid-area: u;
