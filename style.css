@@ -150,10 +150,10 @@ overflow: hidden;
 
 @media (max-width: 308px){
     .header{
-        grid-template-areas: 'x x'
-        'p p'
-        'm m'
-        'z z';
+        grid-template-areas: 'x x x x'
+        'p p p p'
+        'm m m m'
+        'z z z z';
 
         /* height:100%*/
         /* width: ; */
