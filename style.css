@@ -180,7 +180,7 @@ justify-content: center; */
     }
 }
 
-/* @media (max-width:800px){
+@media (max-width:800px){
     .header{
         grid-template-areas: 'x x''x x'
         'p p' 'p p'
@@ -201,4 +201,4 @@ justify-content: center; */
     .left{
         grid-area: m;
     }
-} */
+}
