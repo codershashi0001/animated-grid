@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.main{
+    /* position: relative; */
+    width: 100%;
+    background-color: black;
+    
+    height: 100%;
+}
+
+.parent { 
+    position: relative;
+overflow: hidden;
+    /* background-color: black; */
+background-image: url(https://image.shutterstock.com/image-photo/female-hand-pulling-book-bookshelf-260nw-2148378381.jpg);
+    /* opacity: 0.5; */
+    height:40%;
+    width: 40%;
+    /* transition: all ease 0.5s; */
+    /* position: absolute; */
+}
+
+.child{
+    width: 100%;
+    height: 40%;
+    background-color: rgba(255, 254, 254, 0.5);
+    position: absolute;
+    text-align: center;
+    top: -40%;
+    
+}
+
+.parent:hover .child{
+    top: 0;
+    transition: all ease 0.5s;
+    
+
+}
